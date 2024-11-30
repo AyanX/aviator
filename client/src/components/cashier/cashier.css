@@ -1,0 +1,205 @@
+.loaderCashier {
+  height: 100%;
+}
+
+.cashier-container {
+  min-height: 480px;
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px 20px;
+  background-color: var(--gray);
+  border-radius: 0 0 10px 10px;
+}
+
+.cashier-container nav {
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: solid 1px white;
+  margin-bottom: 15px;
+}
+
+.cashier-container nav ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Oxanium", sans-serif;
+  margin-bottom: 10px;
+}
+.active {
+  color: white;
+}
+
+.cashier-container nav ul li:not(:has(.active)) {
+  color: rgba(255, 255, 255, 0.6);
+}
+.cashier-container nav ul li h3 {
+  cursor: pointer;
+  color: white;
+}
+
+/* //DEPOSIT */
+.deposit-container {
+  color: white;
+}
+.deposit h4 {
+  font-size: 20px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.deposit-container input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.deposit-container button,
+.withdrawal-container button,
+.bonus-container button,
+.loaderCashier button {
+  width: 100%;
+  padding: 5px 0;
+  cursor: pointer;
+  background-color: var(--blue);
+  border: none;
+  border-radius: 5px;
+}
+.deposit-container button h3,
+.withdrawal-container button h3 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: white;
+  transition: all 0.3s;
+}
+.deposit-container button:hover h3 {
+  color: var(--dark);
+}
+
+.deposit-details {
+  margin: 10px 0;
+}
+.deposit-details p,
+.deposit-verify p {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+.deposit-verify h2 {
+  font-family: "PT Sans", sans-serif;
+  margin: 5px 0;
+  text-decoration: underline;
+  padding-bottom: 2px;
+}
+.deposit-verify .ref {
+  font-family: "PT Sans", sans-serif;
+  margin: 5px 0;
+}
+
+/* BONUS */
+
+.bonus-container {
+  margin-top: 15px;
+  color: var(--coldSteel);
+}
+.bonus-container > * {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+}
+.bonus-container div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: solid 1px white;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.code-invite {
+  margin-top: 10px;
+  margin: 0 auto;
+}
+
+.bonus-container div h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+}
+
+/* WITHDRAWAL */
+.withdrawal-container {
+  width: 100%;
+  color: var(--coldSteel);
+}
+.withdrawal-info h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+}
+.withdrawal-info {
+  border: solid 1px white;
+  padding: 5px;
+
+  border-radius: 5px;
+}
+.withdrawal-info h5 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 300;
+}
+.withdrawal-section {
+  margin-top: 15px;
+}
+.withdrawal-section input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.withdrawal-section h3 {
+  font-family: "PT Sans", sans-serif;
+}
+.withdrawals-check {
+  margin-bottom: 10px;
+  font-family: "PT Sans", sans-serif;
+}
+.withdrawals-check div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.withdrawals-check div h5 {
+  font-weight: 500;
+  font-size: 15px;
+}
+.home-btn {
+  margin-top: 10px;
+  width: 70%;
+  background-color: var(--coldSteel) !important;
+  color: red;
+  font-family: "Oxanium", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  padding:5px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.manual-deposit > * {
+  color: white;
+  font-family: "PT Sans", sans-ser;
+}
+.manual-deposit h1 {
+  font-family: "Oxanium", sans-serif;
+  margin-bottom: 10px;
+}
+.manual-deposit p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.manual-deposit h3 {
+  color: black;
+}
+.manual-deposit > div{
+    text-align: center;
+}

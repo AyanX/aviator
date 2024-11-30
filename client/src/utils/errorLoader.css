@@ -1,0 +1,35 @@
+.error-container{
+    color: var(--coldSteel);
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.error-container > div {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.error-container > div > div {
+    text-align: center;
+}
+.error-container > div button  {
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: var(--coldSteel);
+    background-color: var(--blue);
+    cursor: pointer;
+    font-family: "PT Sans", sans-serif;
+    min-width: 80px;
+    width: 250px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    transition: all .3s ease-in-out;
+}
+.error-container > div button:hover{
+  background-color: var(--orange);
+}

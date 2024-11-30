@@ -1,0 +1,147 @@
+.game-wrapper-outer {
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  width:90%;
+  min-height:80svh;
+  margin:0 auto;
+}
+.game-wrapper-outer > div {
+  flex: 1;
+}
+.game {
+  height: 100%;
+}
+.game-section {
+  height: 280px;
+  width: 100%;
+}
+
+.previous-plays {
+  margin: 10px;
+  
+}
+.previous-plays ul{
+  display:flex;
+  flex-direction:column;
+}
+.previous-plays ul li {
+  font-family: "Poppins", sans-serif;
+  color: var(--blue);
+  font-size: 18px;
+  margin-bottom:5px;
+}
+
+.stake label {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  background-color: var(--offWhite);
+  color: black;
+  border-radius: 7px;
+  width: 100%;
+  padding: 10px 5px;
+  align-items: center;
+}
+.stake label h4 {
+  font-family: "Oxanium", sans-serif;
+}
+.stake-form {
+  max-width: 300px;
+  width: 300px;
+  min-width: 150px;
+  
+}
+.stake-form input,
+.stake-form input:active,
+.stake-form input:focus {
+  
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight:bold;
+  outline: none;
+  background-color: var(--offWhite);
+  width: 60%;
+}
+.stake-form h5{
+  color: red;
+  display: none;
+}
+.stake-form .stake-err{
+  display: block;
+}
+.stake div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.stake .betBtn{
+  background-color: var(--blue)   ;
+  color: var(--coldSteel);
+  width: 50%;
+  padding: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: all .3s;
+  margin-top: 10px;
+}
+.stake .redBtn{
+  background-color: red;
+  color: var(--coldSteel);
+  width: 50%;
+  padding: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  
+}
+.stake .greenBtn{
+  background-color: #03045E;
+  color: var(--coldSteel);
+  width: 50%;
+  padding: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.stake button h3 {
+  letter-spacing: 2px;
+  font-family: "Oxanium", sans-serif;
+}
+.stake button:disabled {
+  background-color: #333;
+  cursor: pointer!important;
+}
+.active-players {
+  font-family: "Poppins", sans-serif;
+  width:100%
+}
+.active-players .players-container {
+  font-family: "PT Sans", sans-serif;
+  padding: 0 10px;
+}
+.players-container .players-container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.players-container-header {
+  color: var(--orange);
+}
+.player {
+  color: var(--blue);
+  display:flex;
+  justify-content: space-between;
+}
+.more-players{
+  display: flex;
+  justify-content:center
+}
+.playerLoader{
+  min-height: 100%;
+}
+.bet-error{
+  color:red
+}
+

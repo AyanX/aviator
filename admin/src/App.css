@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Parkinsans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* font-family: "PT Sans", sans-serif;
+font-family: "Raleway", sans-serif;
+font-family: "Parkinsans", sans-serif; */
+
+
+:root{
+    --blue:#0B7EF3 ;
+    --black:#000814;
+    --orange:#F72585;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.app-wrapper{
+    min-height: 100svh;
+    padding: 10px;
+    background-color: var(--black);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+@media screen and (max-width : 260px){
+    .app-wrapper,.login-wrapper{
+        padding: 0 !important;
+    }
+    .login-wrapper input{
+        width: 100%;
+    }
+    
+}

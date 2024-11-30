@@ -1,0 +1,48 @@
+.game-wrapper{
+    background-color:var(--dark) ;
+    color:var(--offWhite);
+     min-height: 100svh; 
+    padding: 20px 30px;
+    width: 100%;}
+.home{
+   width: 90vw;
+   margin: 0 auto;
+   border-radius: 10px;
+   background-color:var(--dark)  ;
+   padding: 5px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.logo{
+    font-size: 30px;
+    color: var(--orange);
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navigation ul li h5 {
+    font-size: 18px;
+    color: var(--coldSteel);
+    font-family: "Oxanium", sans-serif;
+    transition:all .2s ease;
+}
+.navigation ul li:hover h5{
+    color: var(--blue);
+}
+
+.navigation ul li .deposit{
+    color: var(--blue);
+}
+.loaderHome{
+    height: 100svh;
+  }
+.hamburger-menu{
+    height: 24px;
+    cursor: pointer;
+    display: none;
+  }

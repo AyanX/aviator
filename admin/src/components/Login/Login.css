@@ -1,0 +1,19 @@
+.login-wrapper {
+    padding: 10px;
+}
+.login-wrapper > * {
+    font-family: "Parkinsans", sans-serif;
+}
+.login-wrapper input { 
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
+.login-wrapper #submit{
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+}

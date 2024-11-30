@@ -1,0 +1,93 @@
+.sign-up-wrapper {
+    width:100%;
+    min-height:100svh;
+    background-color: var(--dark);
+    margin: 0 auto;
+}
+.sign-up-wrapper > div{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.sign-up-container{
+    padding: 10px;
+    width: 380px;
+}
+.sign-up-container *{
+    font-family: "PT Sans", sans-serif;
+    color: white;
+}
+.sign-up-container > h3{
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+.sign-up-container  div  {
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 0;
+    padding: 3px 2px;
+    border-radius: 10px;
+    outline: none;
+}
+.sign-up-container  div img{
+    height: 24px;
+}
+.sign-up-container  div input   ,
+.sign-up-container  div input:active,
+.sign-up-container  div input:focus
+{
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.sign-up-container    button {
+    background-color: var(--blue);
+    color: var(--coldSteel);
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 15px;
+}
+.sign-up-container    h4 span{
+   text-decoration: underline;
+   
+}
+input:invalid{
+    border: solid 1px red
+}
+.error{
+    color :red;
+    font-family:  "PT Sans", sans-serif;;
+}
+.sign_up_error{
+ margin-bottom: 5px;
+}
+.success{
+    color: green;
+}
+.sign-up-container  .sign_up_feedback{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+.login-home{
+    background-color: var(--blue);
+    color:var(--coldSteel);
+    padding:5px 10px;
+    border-radius: 3px;
+    cursor:pointer;
+    transition: all .3s ease;
+}
+.login-home:hover{ 
+    background-color: var(--purple);
+}

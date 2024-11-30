@@ -1,0 +1,117 @@
+@media screen and (max-width: 700px) {
+  .game-wrapper-outer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .game-wrapper-outer {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 530px) {
+  .hide{
+    display: none;
+  }
+  .hamburger-menu{
+    display: flex;
+  }
+ 
+}
+@media screen and (max-width: 450px)   {
+  .cashier-wrapper .cashier-container{
+    width: 100%;
+   min-height: 100svh;
+  }
+}
+@media screen and (max-width: 400px) {
+  .sign-up-container {
+    width: 100% !important;
+  }
+  .game-wrapper-outer {
+    width: 100%;
+  }
+  .game-wrapper {
+    padding: 10px 5px;
+  }
+  .active-players .players-container {
+    padding: 0;
+  }
+  nav ul{
+    gap: 5px;
+  }
+  .navigation ul li h5{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .cashier-container nav {
+    width: 100% !important;}
+
+  .home hr{
+    display: none;
+  }
+  .wrapper-solar {
+    flex-direction: column;
+  }
+  .previous-plays {
+    margin: 3px;
+  }
+  .previous-plays ul {
+    overflow: hidden;
+    padding: 0 2px;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .previous-plays ul li:nth-child(even) h5 {
+    color: var(--coldSteel);
+  }
+  .previous-plays ul li:nth-child(odd) h5 {
+    color: var(--orange);
+  }
+  .previous-plays ul li h5 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  /*  MEDIA END */
+}
+@media screen and (max-width: 340px) {
+  .navigation ul li h5 {
+    font-size: 15px;
+  }
+  .stake-form {
+    width: 100%;
+  }
+  nav ul {
+    gap:10px
+  }
+  
+  .home{
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 300px){
+  .busted{
+    width: 80% !important;
+    font-size: 18px !important;
+  }
+  .cashier-container nav ul li:nth-child(3){
+    display: none;
+  }
+  .logo{
+    font-size: 20px;
+    color: var(--orange);
+}
+}
+@media screen and (max-width: 275px){
+  nav ul a:nth-child(2){
+    display: none;
+  }
+  .players-container-header h2{
+    font-size: 17px;
+  }
+  .cashier-container nav ul li h3 {
+    font-size: 15px;
+  }
+}
+
